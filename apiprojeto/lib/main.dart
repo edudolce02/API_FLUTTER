@@ -27,8 +27,8 @@ class _TelaLoginState extends State<TelaLogin> {
   bool _isValid = true;
 
   void _login() {
-    const String validUsername = 'matheus';
-    const String validPassword = '1234';
+    const String validUsername = 'Andre';
+    const String validPassword = 'uniara';
 
     String enteredUsername = _usernameController.text;
     String enteredPassword = _passwordController.text;
