@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(FazerLogin());
 }
-
+//Api que chama o fazerlogin onde ocorre a autenticacao do usuario
 class FazerLogin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -84,10 +84,10 @@ class _TelaLoginState extends State<TelaLogin> {
     );
   }
 }
-
+//
 class HomeScreen extends StatelessWidget {
   final String username;
-
+//
   HomeScreen({required this.username});
 
   @override
